@@ -7,40 +7,86 @@
   <title>Góc Nhỏ Của Tôi</title>
   <meta name="description" content="Blog chia sẻ kiến thức và trải nghiệm.">
   <style>
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-      background: #f3f6fb;
-      color: #243047;
-      line-height: 1.7;
-    }
-    header {
-      background: #173b72;
-      color: white;
-      text-align: center;
-      padding: 40px 20px;
-    }
-    main {
-      max-width: 760px;
-      margin: 30px auto;
-      padding: 0 16px;
-    }
-    article {
-      background: white;
-      padding: 24px;
-      margin-bottom: 20px;
-      border-radius: 12px;
-      box-shadow: 0 3px 12px #0000000d;
-    }
-    .date {
-      color: #64748b;
-      font-size: 14px;
-    }
-    footer {
-      text-align: center;
-      padding: 24px;
-      color: #64748b;
-    }
+    
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f0f6ff;
+  color: #26354a;
+  line-height: 1.8;
+}
+
+header {
+  background: linear-gradient(135deg, #244f91, #6ca6e8);
+  color: white;
+  text-align: center;
+  padding: 55px 20px;
+}
+
+header h1 {
+  font-size: 36px;
+  margin: 0 0 10px;
+}
+
+header p {
+  font-size: 17px;
+  margin: 0;
+}
+
+main {
+  max-width: 800px;
+  margin: 35px auto;
+  padding: 0 18px;
+}
+
+main > h2 {
+  color: #244f91;
+  margin-bottom: 20px;
+}
+
+article {
+  background: white;
+  padding: 26px;
+  margin-bottom: 24px;
+  border-radius: 16px;
+  box-shadow: 0 5px 20px rgba(36, 79, 145, 0.08);
+  border: 1px solid #e2ecfa;
+}
+
+article h2 {
+  color: #244f91;
+  line-height: 1.4;
+}
+
+.date {
+  color: #71819a;
+  font-size: 14px;
+}
+
+footer {
+  text-align: center;
+  padding: 28px 16px;
+  color: #71819a;
+}
+
+@media (max-width: 600px) {
+  header {
+    padding: 38px 16px;
+  }
+
+  header h1 {
+    font-size: 28px;
+  }
+
+  article {
+    padding: 20px;
+  }
+}
+
   </style>
 </head>
 <body>
